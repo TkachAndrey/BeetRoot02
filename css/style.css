@@ -1,0 +1,284 @@
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.header{
+	padding-top: 48px;
+	padding-bottom: 124px;
+	position: relative;
+}
+
+.bg_gradient{
+	height: 852px;
+	width: 947px;
+	position: absolute;
+	top: 0;
+	right: -96px;
+	background-image: url(../img/bg-headphones.png);
+}
+
+.logo{
+	/*position: absolute;
+	left: 0;
+	top: 48px;*/
+	font-family: Roboto, sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 27px;
+	letter-spacing: 1.2px;
+	float: left;
+}
+
+.menu{
+	float: right;
+	/*position: absolute;
+	right: 0;
+	top: 60px;*/
+}
+
+.menu__link{
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0.45px;
+	margin-left: 40px;
+}
+
+.slider{
+	
+}
+
+.text__left{
+	width: 620px;
+	text-align: right;
+	float: left;
+	margin-right: 98px;
+}
+
+.text__left_h1{
+	font-family: Raleway, sans-serif;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	text-transform: uppercase;
+	letter-spacing: 3.70px;
+}
+
+.text__left_p{
+	width: 571px;
+	height: 95px;
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 33px;
+	letter-spacing: 0.5px;
+	margin-top: 40px;
+	margin-left: 43px;
+	padding: 0;
+}
+
+.text__left_a{
+	display: inline-block;
+	color: #e10011;
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+	margin: 25px 0 17px;
+}
+
+.photo__right{
+	margin-left: 620px;
+}
+
+
+.main{
+	margin-top: 200px;
+	padding: 114px 71px 72px 72px;
+	background-color: #FFF;
+	text-align: center;
+}
+
+.headline__h2{
+	font-family: Raleway, sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	letter-spacing: 1.2px;
+	margin-bottom:18px;
+}
+
+.headline__p{ 
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+	margin-top: 12px;
+}
+
+.grid__item_1{
+	width: 692px;
+	height: 387px;
+	background-color: #eee;
+	float: left;
+}
+
+.grid__item_2{
+	width: 328px;
+	height: 387px;
+	background-color: #eee;
+	float: right;
+	text-align: right;
+}
+
+.grid__item_3{
+	width: 328px;
+	height: 387px;
+	padding-top: 264px;
+	padding-left: 37px;
+	background-color: #f30000;
+	float: left;
+	text-align: left;
+}
+
+.grid__item_3_p{
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.grid__item_4{
+	width: 329px;
+	height: 387px;
+	float: left;
+	background-color: #eee;
+	margin-left: 35px;
+}
+
+.grid__item_5{
+	width: 328px;
+	height: 387px;
+	float: right;
+	background-color: #eee;
+}
+
+.row-1{
+	margin-top: 73px;
+}
+
+.row-2{
+	margin-top: 35px;
+}
+
+.optIn{
+	margin-top: 99px;
+	text-align: center;
+}
+
+.optIn__h2{
+	font-family: Raleway;
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.optIn__p{
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+	margin-top: 27px;
+	margin-bottom: 37px;
+}
+
+input[type="email"]{
+	width: 702px;
+	height: 70px;
+	border-radius: 50px;
+	font-size: 18px;
+	padding-left: 70px;
+	margin-right: -212px;
+	color: #000;
+	background: #fff url(../img/mail.png) no-repeat 30px center;
+}
+
+input[placeholder]{
+	color: #979797;
+	font-family: Raleway, sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+}
+
+button{
+	width: 208px;
+	height: 70px;
+	background-color: #e10011;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.footer{
+	margin-top: 112px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.social__item{
+	display: inline-block;
+	background-color: #FFF;
+	width: 70px;
+	height: 70px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin: 0 10px;
+	padding-top: 18px;
+}
+
+.social__link{
+	font-size: 34px;
+	color: #979797;
+	font-weight: 400;
+	letter-spacing: 0.85px;
+}
+
+.social__link:hover{
+	color: #e10011;
+}
+
+
+
+
+
+
+
+.footer__p{
+	margin-top: 65px;
+	color: #979797;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+}
+
+.footer__p_company{
+	color: #303030;
+	letter-spacing: 0.45px;
+}
+
+
+
