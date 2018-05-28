@@ -16,13 +16,11 @@
 	position: absolute;
 	top: 0;
 	right: -96px;
+	z-index: -1;
 	background-image: url(../img/bg-headphones.png);
 }
 
 .logo{
-	/*position: absolute;
-	left: 0;
-	top: 48px;*/
 	font-family: Roboto, sans-serif;
 	font-size: 48px;
 	font-weight: 900;
@@ -33,9 +31,6 @@
 
 .menu{
 	float: right;
-	/*position: absolute;
-	right: 0;
-	top: 60px;*/
 }
 
 .menu__link{
